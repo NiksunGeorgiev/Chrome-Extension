@@ -1,0 +1,35 @@
+{
+  "name": "chrom-extension",
+  "version": "1.0.0",
+  "description": "This is a Web Extension for Chrome",
+  "main": "./src/popup.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nikolay Georgiev",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^4.7.16",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.7.3",
+    "moment": "^2.29.4",
+    "style-loader": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-webpack": "^0.5.1",
+    "jquery": "^3.6.4",
+    "jsdom": "^21.1.1",
+    "webextension-polyfill": "^0.10.0",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

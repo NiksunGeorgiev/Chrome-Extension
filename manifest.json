@@ -1,0 +1,14 @@
+{
+  "name": "My Chrome Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Opens a webpage with a URL input by the user and keeps it open",
+  "action": {
+    "default_title": "My Chrome Extension",
+    "default_popup": "src/popup.html"
+  },
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"]
+}
